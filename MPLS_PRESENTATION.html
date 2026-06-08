@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentasi MPLS SMPN 4 Satu Atap Bawang</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f3f4f6;
+            overflow: hidden;
+        }
+        .slide {
+            display: none;
+            height: 100vh;
+            width: 100vw;
+            padding: 4rem;
+            transition: all 0.5s ease;
+        }
+        .slide.active {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            animation: fadeIn 0.5s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .bg-navy { background-color: #002366; }
+        .text-gold { color: #FFD700; }
+        .border-gold { border-color: #FFD700; }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Slide 1: Judul Utama -->
+    <div class="slide active bg-navy text-white text-center">
+        <h1 class="text-6xl font-bold mb-4">Selamat Datang <br> Peserta Didik Baru!</h1>
+        <p class="text-2xl mb-8">Masa Pengenalan Lingkungan Sekolah (MPLS)</p>
+        <div class="w-32 h-1 bg-gold mx-auto mb-8"></div>
+        <h2 class="text-3xl font-semibold">SMP Negeri 4 Satu Atap Bawang</h2>
+        <p class="text-xl mt-2 italic text-gold">"SMP Negeri, Juara!!!"</p>
+        <p class="mt-12 text-gray-300">Tahun Ajaran 2026/2027</p>
+    </div>
+
+    <!-- Slide 2: Sambutan Kepala Sekolah -->
+    <div class="slide bg-white">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-4xl font-bold text-navy mb-8 border-b-4 border-gold pb-2 inline-block">Sambutan Kepala Sekolah</h2>
+            <div class="flex items-center gap-12 mt-8">
+                <div class="w-1/3">
+                    <div class="bg-gray-300 w-64 h-80 rounded-lg shadow-xl flex items-center justify-center text-gray-500 italic">
+                        [Foto Ibu Heri Rakhmawati]
+                    </div>
+                </div>
+                <div class="w-2/3">
+                    <p class="text-2xl italic leading-relaxed text-gray-700">
+                        "Selamat bergabung di keluarga besar 'Sempat' Bawang. Jadikan sekolah ini tempat kalian bertumbuh menjadi pribadi yang tangguh, cerdas, dan berkarakter."
+                    </p>
+                    <div class="mt-8">
+                        <p class="text-3xl font-bold text-navy">Heri Rakhmawati, M.Pd</p>
+                        <p class="text-xl text-gray-500">Kepala Sekolah</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 3: Visi & Misi -->
+    <div class="slide bg-navy text-white">
+        <h2 class="text-5xl font-bold mb-12 text-gold">Visi & Misi Kita</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-6xl">
+            <div class="bg-white/10 p-8 rounded-xl border-l-8 border-gold">
+                <h3 class="text-3xl font-bold mb-4">VISI</h3>
+                <p class="text-xl leading-relaxed">
+                    "Terwujudnya Peserta Didik yang Unggul dalam Prestasi, Berkarakter Pelajar Pancasila, Sehat, dan Berwawasan Lingkungan."
+                </p>
+            </div>
+            <div class="bg-white/10 p-8 rounded-xl border-l-8 border-gold">
+                <h3 class="text-3xl font-bold mb-4">MISI</h3>
+                <ul class="text-lg space-y-3 list-disc list-inside">
+                    <li>Meningkatkan prestasi akademik & non-akademik.</li>
+                    <li>Menumbuhkan nilai religius & budi pekerti.</li>
+                    <li>Membangun budaya hidup sehat jiwa & raga.</li>
+                    <li>Menciptakan lingkungan sekolah asri & nyaman.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 4: Profil Sekolah -->
+    <div class="slide bg-white">
+        <div class="max-w-6xl w-full">
+            <h2 class="text-4xl font-bold text-navy mb-12 border-b-4 border-gold pb-2 inline-block">Profil SMPN 4 Satap Bawang</h2>
+            <div class="grid grid-cols-2 gap-8">
+                <div class="space-y-6">
+                    <div class="flex items-start gap-4">
+                        <div class="bg-navy p-3 rounded-lg text-white">📍</div>
+                        <div>
+                            <p class="font-bold text-navy">Alamat</p>
+                            <p class="text-gray-600">Jl. Raya Winong Km. 1, Bawang, Banjarnegara.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <div class="bg-navy p-3 rounded-lg text-white">🆔</div>
+                        <div>
+                            <p class="font-bold text-navy">NPSN</p>
+                            <p class="text-gray-600 font-mono">20351046</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <div class="bg-navy p-3 rounded-lg text-white">🏆</div>
+                        <div>
+                            <p class="font-bold text-navy">Prestasi Unggulan</p>
+                            <p class="text-gray-600">Juara 3 Aksimu Keren 2023, Juara Pra OSN Matematika.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gray-100 p-6 rounded-xl border-2 border-dashed border-gray-300">
+                    <p class="font-bold text-navy mb-4">Fasilitas Utama:</p>
+                    <ul class="grid grid-cols-2 gap-4 text-gray-700">
+                        <li>✅ R. Kelas Standar</li>
+                        <li>✅ Perpustakaan</li>
+                        <li>✅ Lab. Komputer</li>
+                        <li>✅ Lapangan Olahraga</li>
+                        <li>✅ Green House</li>
+                        <li>✅ Kantin Sehat</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 5: Dasar Hukum -->
+    <div class="slide bg-gray-50">
+        <div class="max-w-4xl text-center">
+            <h2 class="text-4xl font-bold text-navy mb-8">Dasar Hukum & Transparansi</h2>
+            <div class="bg-white p-12 shadow-2xl rounded-2xl relative">
+                <div class="absolute -top-6 left-1/2 -translate-x-1/2 bg-gold text-navy font-bold px-6 py-2 rounded-full shadow">
+                    KEPUTUSAN BUPATI
+                </div>
+                <p class="text-2xl font-semibold text-gray-800 mb-6 uppercase">
+                    NOMOR 400.3/399 TAHUN 2026
+                </p>
+                <p class="text-xl text-gray-600 leading-relaxed">
+                    Menjamin proses penerimaan peserta didik baru yang <br>
+                    <span class="text-navy font-bold">OBJEKTIF, TRANSPARAN, DAN AKUNTABEL</span>
+                </p>
+                <div class="mt-8 pt-8 border-t border-gray-200 flex justify-around">
+                    <div class="text-center">
+                        <p class="text-3xl font-bold text-navy">100%</p>
+                        <p class="text-sm text-gray-500">Sesuai Juknis</p>
+                    </div>
+                    <div class="text-center">
+                        <p class="text-3xl font-bold text-navy">Tanpa</p>
+                        <p class="text-sm text-gray-500">Diskriminasi</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 6: Jalur Penerimaan -->
+    <div class="slide bg-navy text-white">
+        <h2 class="text-4xl font-bold mb-12 text-gold">Jalur Penerimaan & Kuota</h2>
+        <div class="grid grid-cols-4 gap-6 w-full max-w-6xl">
+            <div class="bg-white/10 p-6 rounded-xl text-center">
+                <p class="text-5xl font-bold text-gold mb-2">50%</p>
+                <p class="text-xl font-semibold">Jalur Domisili</p>
+                <p class="text-sm text-gray-300 mt-2">Mendekatkan rumah dengan sekolah</p>
+            </div>
+            <div class="bg-white/10 p-6 rounded-xl text-center">
+                <p class="text-5xl font-bold text-gold mb-2">20%</p>
+                <p class="text-xl font-semibold">Jalur Afirmasi</p>
+                <p class="text-sm text-gray-300 mt-2">Keluarga tidak mampu & disabilitas</p>
+            </div>
+            <div class="bg-white/10 p-6 rounded-xl text-center">
+                <p class="text-5xl font-bold text-gold mb-2">25%</p>
+                <p class="text-xl font-semibold">Jalur Prestasi</p>
+                <p class="text-sm text-gray-300 mt-2">Akademik & Non-Akademik</p>
+            </div>
+            <div class="bg-white/10 p-6 rounded-xl text-center">
+                <p class="text-5xl font-bold text-gold mb-2">5%</p>
+                <p class="text-xl font-semibold">Jalur Mutasi</p>
+                <p class="text-sm text-gray-300 mt-2">Perpindahan tugas orang tua</p>
+            </div>
+        </div>
+        <div class="mt-12 bg-gold/20 p-4 rounded-lg border border-gold">
+            <p class="text-2xl font-bold">Total Daya Tampung: 32 Siswa</p>
+        </div>
+    </div>
+
+    <!-- Slide 7: Bebas Biaya -->
+    <div class="slide bg-white">
+        <div class="max-w-4xl text-center">
+            <div class="mb-8 inline-block bg-green-100 text-green-700 font-bold px-8 py-3 rounded-full text-2xl">
+                Rp 0,- (GRATIS)
+            </div>
+            <h2 class="text-5xl font-bold text-navy mb-8">Pendidikan Untuk Semua</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
+                <div class="flex items-center gap-4 bg-gray-50 p-6 rounded-xl">
+                    <span class="text-4xl">❌</span>
+                    <p class="text-xl text-gray-700">TIDAK ADA Pungutan Pendaftaran</p>
+                </div>
+                <div class="flex items-center gap-4 bg-gray-50 p-6 rounded-xl">
+                    <span class="text-4xl">❌</span>
+                    <p class="text-xl text-gray-700">TIDAK ADA Biaya Daftar Ulang</p>
+                </div>
+                <div class="flex items-center gap-4 bg-gray-50 p-6 rounded-xl">
+                    <span class="text-4xl">❌</span>
+                    <p class="text-xl text-gray-700">TIDAK ADA Kewajiban Beli Seragam</p>
+                </div>
+                <div class="flex items-center gap-4 bg-gray-50 p-6 rounded-xl">
+                    <span class="text-4xl">✅</span>
+                    <p class="text-xl text-gray-700">Didukung Anggaran APBD 2026</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 8: Agenda MPLS -->
+    <div class="slide bg-gray-50">
+        <h2 class="text-4xl font-bold text-navy mb-12">Agenda MPLS 13 - 17 Juli 2026</h2>
+        <div class="grid grid-cols-5 gap-4 w-full max-w-7xl">
+            <div class="bg-navy text-white p-6 rounded-xl shadow-lg">
+                <p class="font-bold border-b border-gold mb-4">SENIN</p>
+                <p class="text-sm">Pembukaan, Pengenalan Guru & Staf</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-navy">
+                <p class="font-bold border-b border-navy text-navy mb-4">SELASA</p>
+                <p class="text-sm text-gray-600">Wiyata Mandala & Tour Fasilitas</p>
+            </div>
+            <div class="bg-navy text-white p-6 rounded-xl shadow-lg">
+                <p class="font-bold border-b border-gold mb-4">RABU</p>
+                <p class="text-sm">Cara Belajar Efektif & Tata Krama</p>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-navy">
+                <p class="font-bold border-b border-navy text-navy mb-4">KAMIS</p>
+                <p class="text-sm text-gray-600">Pengenalan Ekstrakurikuler & OSIS</p>
+            </div>
+            <div class="bg-navy text-white p-6 rounded-xl shadow-lg">
+                <p class="font-bold border-b border-gold mb-4">JUMAT</p>
+                <p class="text-sm">Senam, Kerja Bakti & Penutupan</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 9: Budaya & Tata Tertib -->
+    <div class="slide bg-navy text-white">
+        <h2 class="text-4xl font-bold mb-12 text-gold">Budaya & Tata Tertib</h2>
+        <div class="grid grid-cols-2 gap-12 w-full max-w-5xl">
+            <div class="space-y-6">
+                <h3 class="text-2xl font-bold flex items-center gap-2">
+                    <span class="text-3xl">🤝</span> Budaya 5S:
+                </h3>
+                <div class="grid grid-cols-3 gap-4">
+                    <div class="bg-white/10 p-3 rounded text-center">Salam</div>
+                    <div class="bg-white/10 p-3 rounded text-center">Senyum</div>
+                    <div class="bg-white/10 p-3 rounded text-center">Sapa</div>
+                    <div class="bg-white/10 p-3 rounded text-center">Sopan</div>
+                    <div class="bg-white/10 p-3 rounded text-center">Santun</div>
+                </div>
+            </div>
+            <div class="space-y-4">
+                <h3 class="text-2xl font-bold flex items-center gap-2">
+                    <span class="text-3xl">🌿</span> Sekolah Sehat:
+                </h3>
+                <ul class="space-y-2 text-lg">
+                    <li>✨ Bebas Sampah Plastik</li>
+                    <li>✨ One Student One Plant</li>
+                    <li>✨ Datang Tepat Waktu</li>
+                    <li>✨ Berpakaian Rapi & Bersih</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 10: Persiapan Hari 1 -->
+    <div class="slide bg-white">
+        <h2 class="text-4xl font-bold text-navy mb-12">Persiapan Hari Pertama</h2>
+        <div class="bg-gold/10 p-12 rounded-3xl border-2 border-gold max-w-4xl">
+            <ul class="text-2xl space-y-6 text-gray-800">
+                <li class="flex items-center gap-6">
+                    <span class="bg-navy text-white w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0">1</span>
+                    Alat tulis dan buku catatan MPLS
+                </li>
+                <li class="flex items-center gap-6">
+                    <span class="bg-navy text-white w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0">2</span>
+                    Pakaian seragam SD (bersih & rapi)
+                </li>
+                <li class="flex items-center gap-6">
+                    <span class="bg-navy text-white w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0">3</span>
+                    Membawa bekal makan siang sehat
+                </li>
+                <li class="flex items-center gap-6">
+                    <span class="bg-navy text-white w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0">4</span>
+                    Semangat JUARA!
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Slide 11: Kontak & Pengaduan -->
+    <div class="slide bg-gray-100">
+        <h2 class="text-4xl font-bold text-navy mb-12">Kontak Layanan & Pengaduan</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 w-full max-w-5xl">
+            <div class="bg-white p-8 rounded-2xl shadow-lg border-l-8 border-navy">
+                <h3 class="text-xl font-bold text-navy mb-4">Sekolah:</h3>
+                <p class="text-lg">📧 info@smpn4satapbawang.sch.id</p>
+                <p class="text-lg mt-2">🌐 smpn4satapbawang.sch.id</p>
+            </div>
+            <div class="bg-white p-8 rounded-2xl shadow-lg border-l-8 border-gold">
+                <h3 class="text-xl font-bold text-navy mb-4">Dindikpora Banjarnegara:</h3>
+                <p class="text-lg">📧 dindikpora@banjarnegarakab.go.id</p>
+                <p class="text-lg mt-2">📞 0851-7963-8460 (Elis Novi T.)</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 12: Penutup -->
+    <div class="slide bg-navy text-white text-center">
+        <h1 class="text-7xl font-bold mb-6 text-gold">Terima Kasih!</h1>
+        <p class="text-3xl mb-12 font-semibold">Selamat Belajar, Sang Juara!</p>
+        <div class="w-64 h-1 bg-white mx-auto mb-12"></div>
+        <p class="max-w-2xl mx-auto text-xl text-gray-300 leading-relaxed">
+            "Bersama SMPN 4 Satu Atap Bawang, kita ukir prestasi menuju masa depan gemilang."
+        </p>
+        <div class="mt-16 flex justify-center gap-8 text-gold font-bold">
+            <span>#SempatBawang</span>
+            <span>#SMPNegeriJuara</span>
+            <span>#MPLS2026</span>
+        </div>
+    </div>
+
+    <!-- Navigation Controls -->
+    <div class="fixed bottom-8 right-8 flex gap-4 no-print">
+        <button onclick="prevSlide()" class="bg-navy hover:bg-blue-900 text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg transition-colors">
+            ←
+        </button>
+        <div id="slideCounter" class="bg-white px-4 h-12 flex items-center justify-center rounded-full font-bold shadow-lg">
+            1 / 12
+        </div>
+        <button onclick="nextSlide()" class="bg-navy hover:bg-blue-900 text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg transition-colors">
+            →
+        </button>
+    </div>
+
+    <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.slide');
+        const counter = document.getElementById('slideCounter');
+
+        function showSlide(n) {
+            slides[currentSlide].classList.remove('active');
+            currentSlide = (n + slides.length) % slides.length;
+            slides[currentSlide].classList.add('active');
+            counter.innerText = (currentSlide + 1) + ' / ' + slides.length;
+        }
+
+        function nextSlide() { showSlide(currentSlide + 1); }
+        function prevSlide() { showSlide(currentSlide - 1); }
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowRight' || e.key === ' ') nextSlide();
+            if (e.key === 'ArrowLeft') prevSlide();
+        });
+    </script>
+</body>
+</html>
